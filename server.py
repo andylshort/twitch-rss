@@ -10,6 +10,10 @@ from apscheduler.triggers.interval import IntervalTrigger
 app = Flask(__name__)
 
 
+@app.route("/")
+def index():
+    return "Twitch RSS Feed"
+
 @app.route("/rss")
 def rss():
     return current_app.send_static_file("rss.xml")
@@ -30,4 +34,4 @@ scheduler.add_job(
 atexit.register(lambda: scheduler.shutdown())
 
 update_rss_feed()
-app.run(debug=True)
+app.run(host="0.0.0.0", debug=True)

@@ -1,0 +1,6 @@
+Flask>=0.12.2
+apscheduler==3.5.1
+requests==2.18.4
+lxml==4.2.0
+feedparser==5.2.1
+feedgen==0.6.1
