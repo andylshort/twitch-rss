@@ -9,6 +9,10 @@ Provides an RSS feed telling you when Twitch streamers you follow go live
 * Run via `python twitch_feed.py`
 * Find `rss.xml` under `localhost`
 
+## History
+19/03/2018: Recently updated to use Docker, will update README soon.
+10/03/2018: Initial version.
+
 ## License
 
 See LICENSE.
