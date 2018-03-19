@@ -10,7 +10,9 @@ Provides an RSS feed telling you when Twitch streamers you follow go live
 * Find `rss.xml` under `localhost`
 
 ## History
+
 19/03/2018: Recently updated to use Docker, will update README soon.
+
 10/03/2018: Initial version.
 
 ## License
